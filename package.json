@@ -1,0 +1,33 @@
+{
+  "name": "base-case",
+  "version": "1.0.0",
+  "description": "base bot case",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name bot",
+    "restart:pm2": "pm2 restart bot",
+    "stop:pm2": "pm2 stop bot"
+  },
+  "keywords": [
+    "autoreadsw",
+    "baileys"
+  ],
+  "author": "Dika Ardnt.",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "file-type": "latest",
+    "fluent-ffmpeg": "^2.1.2",
+    "human-readable": "^0.2.1",
+    "node-webpmux": "^3.1.9",
+    "performance-now": "^2.1.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "simple-json-db": "^2.0.0"
+  }
+}
